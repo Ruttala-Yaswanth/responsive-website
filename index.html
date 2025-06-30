@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slay4U Burger</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/images/logo-burger.svg" alt="Slay4U Burger Logo" class="logo" />
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#popular" class="nav__link">Menu</a></li>
+          <li><a href="#delivery" class="nav__link">Delivery</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section animate" id="home" aria-label="Home">
+      <div class="container grid home__container">
+        <div class="home__data">
+          <h1 class="home__title">Tasty & Juicy Burgers</h1>
+          <p class="home__description">Get your delicious burger delivered in minutes!</p>
+          <a href="#popular" class="btn">Order Now</a>
+        </div>
+        <div class="home__img">
+          <img src="assets/images/popular-burger-big.png" alt="Delicious Burger" />
+        </div>
+      </div>
+    </section>
+
+    <section class="popular section animate" id="popular" aria-label="Popular Menu">
+      <h2 class="section__title">Popular Picks</h2>
+      <div class="container grid popular__container">
+        <article class="popular__card">
+          <img src="assets/images/popular-burger-big.png" alt="Double Cheese Burger" class="popular__img" />
+          <h3 class="popular__name">Double Cheese Deluxe</h3>
+          <span class="popular__price">$6.99</span>
+        </article>
+
+        <article class="popular__card">
+          <img src="assets/images/popular-burger-chicken.png" alt="Crispy Chicken Burger" class="popular__img" />
+          <h3 class="popular__name">Crispy Chicken</h3>
+          <span class="popular__price">$8.49</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="delivery section animate" id="delivery" aria-label="Delivery Info">
+      <div class="container grid delivery__container">
+        <div class="delivery__img">
+          <img src="assets/images/contact-man.png" alt="Delivery Person" />
+        </div>
+        <div class="delivery__data">
+          <h2 class="section__title">Fast Delivery</h2>
+          <p>We bring the burger to your doorstep hot and fresh.</p>
+          <a href="#contact" class="btn">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section animate" id="contact" aria-label="Contact Form">
+      <div class="container contact__container">
+        <h2 class="section__title">Get In Touch</h2>
+        <form action="#" class="contact__form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="floating-item lettuce">
+      <img src="assets/images/home-lettuce.png" alt="Decorative Lettuce" />
+    </div>
+    <div class="floating-item tomato">
+      <img src="assets/images/home-tomato.png" alt="Decorative Tomato" />
+    </div>
+    <div class="floating-item fries">
+      <img src="assets/images/home-potato.png" alt="Decorative Fries" />
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Slay4U Burgers. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
